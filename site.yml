@@ -1,0 +1,6 @@
+---
+  - name: Setup Linux Server
+    hosts: localhost 
+    gather_facts: true
+    roles:
+      - testing
